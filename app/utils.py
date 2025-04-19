@@ -2,7 +2,7 @@ import requests
 from fastapi import HTTPException
 from datetime import datetime
 
-NEWS_API_KEY = "your_newsapi_key_here"
+NEWS_API_KEY = "3a9b993d0f3a486494b011afbcdfbeee"
 NEWS_API_URL = "https://newsapi.org/v2/top-headlines"
 
 def fetch_news_from_api(country: str = None, source: str = None):
