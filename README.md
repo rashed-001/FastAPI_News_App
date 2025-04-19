@@ -3,6 +3,30 @@
 
 A FastAPI-based backend application that integrates with NewsAPI to fetch and store news articles. The application supports OAuth2 client credentials-based authentication and provides endpoints to fetch, filter, and save news articles.
 
+## Project Structure
+
+```
+fastapi-oauth2-app
+├── app
+│   ├── __init__.py
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── utils.py
+│   ├── auth
+│   │   ├── __init__.py
+│   │   ├── oauth2.py
+│   └── routes
+│       ├── __init__.py
+│       └── protected.py
+├── .flake8
+├── .pre-commit-config.yaml
+├── Dockerfile
+├── requirements.txt
+└── README.md
+```
+
 ---
 
 ## Features
